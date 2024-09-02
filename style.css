@@ -14,7 +14,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/background1.jpg);
+    background-image: url(images/background-dark.jpg);
     background-size: cover;
     /* background-position: right; */
 }
@@ -41,8 +41,9 @@ nav.sticky ul li a{
 }
 
 .logo{
+    /* font-family: ; */
     width: 140px;
-    font-size: 50px;
+    font-size: 30px;
     text-decoration: none;
     color: #fff;
 }
@@ -73,9 +74,13 @@ nav ul li a:hover::after{
 }
 .header-text{
     display: block;
-    text-align: right;
+    text-align: left;
     margin-top: 20%;
     font-size: 30px;
+}
+.header-text p{
+    margin-left: 100px;
+    margin-top: 30px;
 }
 .header-text h1{
     font-size: 60px;
@@ -348,11 +353,14 @@ nav .fa-xmark,nav .fa-bars{
     .header-text{
         /* display: block; */
         text-align: left;
-        margin-top: 100%;
+        margin-top: 70%;
         font-size: 16px;
     }
     .header-text h1{
         font-size: 30px;
+    }
+    .header-text p{
+        margin-left: 20px;
     }
     nav .fa-xmark,nav .fa-bars{
         display: block;
